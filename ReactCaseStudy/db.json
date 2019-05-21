@@ -1,0 +1,261 @@
+{
+  "users": [
+    {
+      "username": "krishna",
+      "password": "krishna@123",
+      "role": "admin",
+      "availabilityStatus": "Available"
+    },
+    {
+      "username": "roopa",
+      "password": "roopa@123",
+      "role": "customer",
+      "availabilityStatus": "Available"
+    },
+    {
+      "username": "rimika",
+      "password": "rimika@123",
+      "role": "customer",
+      "availabilityStatus": "Offline"
+    },
+    {
+      "username": "arun",
+      "password": "arun@123",
+      "role": "customer",
+      "availabilityStatus": "Available"
+    },
+    {
+      "username": "roshan",
+      "password": "roshan@123",
+      "role": "customer",
+      "availabilityStatus": "Available"
+    },
+    {
+      "username": "khalid",
+      "password": "khalid@123",
+      "role": "customer",
+      "availabilityStatus": "Available"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "pdtName": "Gamia Laptop",
+      "pdtPrice": 33000,
+      "pdtCode": "1",
+      "pdtDescription": "An excellent choice for an awesome gaming experience.",
+      "pdtCategory": "Electronics",
+      "avgFeedback": 3.5,
+      "purchasedUser": "roopa",
+      "pdtImg": "assets/images/Laptop.jpg"
+    },
+    {
+      "id": 2,
+      "pdtName": "Ind Mobile EX321",
+      "pdtPrice": 8999,
+      "pdtCode": "2",
+      "pdtDescription": "This will take you to next level of communication.",
+      "pdtCategory": "Electronics",
+      "avgFeedback": 4,
+      "purchasedUser": "rimika",
+      "pdtImg": "assets/images/Mobile.png"
+    },
+    {
+      "id": 3,
+      "pdtName": "Khaadi Shirt",
+      "pdtPrice": 982,
+      "pdtCode": "3",
+      "pdtDescription": "Best suitable for tropical climate.",
+      "pdtCategory": "Costumes",
+      "avgFeedback": 4.5,
+      "purchasedUser": "roopa",
+      "pdtImg": "assets/images/Shirt.jpg"
+    },
+    {
+      "id": 4,
+      "pdtName": "NI Power Bank",
+      "pdtPrice": 599,
+      "pdtCode": "4",
+      "pdtDescription": "Execellent power bank having mini usb connector.",
+      "pdtCategory": "Electronics",
+      "avgFeedback": 2.5,
+      "purchasedUser": "khalid",
+      "pdtImg": "assets/images/PowerBank.jpg"
+    }
+  ],
+  "feedbackDetails": [
+    {
+      "id": 1,
+      "pdtCode": "1",
+      "user": "roopa",
+      "body": "Awesome product at an affordable range. Go for it.",
+      "rating": 4.2
+    },
+    {
+      "id": 2,
+      "pdtCode": "1",
+      "user": "rimika",
+      "body": "Not upto the mark. Gets heated soon",
+      "rating": 3.7
+    },
+    {
+      "id": 3,
+      "pdtCode": "1",
+      "user": "krishna",
+      "body": "Worst product. First of all , received very late. Forget about it",
+      "rating": 2.7
+    },
+    {
+      "id": 4,
+      "pdtCode": "2",
+      "user": "roopa",
+      "body": "Looks fine",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "pdtCode": "2",
+      "user": "rimika",
+      "body": "good one at this range of price.",
+      "rating": 4.4
+    },
+    {
+      "id": 6,
+      "pdtCode": "2",
+      "user": "krishna",
+      "body": "GPS less accurate. Rest everything is fine.",
+      "rating": 2
+    },
+    {
+      "id": 7,
+      "pdtCode": "3",
+      "user": "roopa",
+      "body": "Good for the climate.",
+      "rating": 4.3
+    },
+    {
+      "id": 8,
+      "pdtCode": "4",
+      "user": "khalid",
+      "body": "Very bad product. Discharge rate is very high and getting heated quickly.",
+      "rating": 2
+    },
+    {
+      "id": 9,
+      "pdtCode": "4",
+      "user": "rimika",
+      "body": "Average",
+      "rating": 3
+    },
+    {
+      "id": 10,
+      "pdtCode": "2",
+      "user": "krishna",
+      "body": "Good one in this price range",
+      "rating": "3.5"
+    },
+    {
+      "pdtCode": "3",
+      "user": "asdf",
+      "body": "Nice.",
+      "rating": 3,
+      "id": 11
+    },
+    {
+      "pdtCode": "3",
+      "user": "asdf",
+      "body": "good.",
+      "rating": 4,
+      "id": 12
+    },
+    {
+      "pdtCode": "3",
+      "user": "asdf",
+      "body": "nice.",
+      "rating": 4,
+      "id": 13
+    },
+    {
+      "pdtCode": "3",
+      "user": "asdf",
+      "body": "good one. not bad.",
+      "rating": 3,
+      "id": 14
+    },
+    {
+      "pdtCode": "3",
+      "user": "asdf",
+      "body": "not bad.",
+      "rating": "5",
+      "id": 15
+    },
+    {
+      "pdtCode": "3",
+      "user": "asdf",
+      "body": "asdf",
+      "rating": 3,
+      "id": 16
+    },
+    {
+      "pdtCode": "1",
+      "user": "roopa",
+      "body": "average one.",
+      "rating": 3,
+      "id": 17
+    },
+    {
+      "pdtCode": "2",
+      "user": "krishna",
+      "body": "very good.",
+      "rating": 4,
+      "id": 18
+    },
+    {
+      "{\"pdtCode\":\"1\",\"user\":\"krishna\",\"body\":\"good one.\",\"rating\":\"5\"}": "",
+      "id": 19
+    },
+    {
+      "{\"pdtCode\":\"1\",\"user\":\"krishna\",\"body\":\"\",\"rating\":\"5\"}": "",
+      "id": 20
+    },
+    {
+      "{\"pdtCode\":\"1\",\"user\":\"krishna\",\"body\":\"good one.\",\"rating\":4}": "",
+      "id": 21
+    },
+    {
+      "pdtCode": "1",
+      "user": "krishna",
+      "body": "good one.",
+      "rating": "5",
+      "id": 22
+    },
+    {
+      "pdtCode": "1",
+      "user": "krishna",
+      "body": "not good one.",
+      "rating": "1",
+      "id": 23
+    },
+    {
+      "pdtCode": "2",
+      "user": "roopashri",
+      "body": "good\n\n",
+      "rating": "5",
+      "id": 24
+    },
+    {
+      "pdtCode": "2",
+      "user": "roopashri",
+      "body": "",
+      "rating": "3",
+      "id": 25
+    },
+    {
+      "pdtCode": "2",
+      "user": "re",
+      "body": "",
+      "rating": "2",
+      "id": 26
+    }
+  ]
+}

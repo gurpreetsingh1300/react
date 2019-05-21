@@ -1,0 +1,168 @@
+.navbar-form a{
+		color:white !important;
+}
+body{
+	font-family:Roboto,sans-serif;
+	background:grey;
+}
+nav>div.container{
+	margin-left: 0;
+	margin-right: 0;
+	width:auto;
+}
+.form-layout{
+	background-color: #fff;
+}
+.panel-heading{
+	overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+.panel-heading-left {
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+}
+.panel-heading-right{
+	float: left;
+  width: 25%;
+  padding-top: 30px;
+  font-size: 70px;
+  color: #eee;
+  line-height: 100px;
+  text-align: right;
+}
+.panel-body{
+	padding: 25px 25px 30px 25px;
+	background: #eee;
+	text-align: left;
+}
+.form-control{
+	height: 50px;
+}
+#react>div>div.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+.row{
+	width:100%
+}
+.navbar{
+	border-radius:0 !important;
+}
+.navbar-inverse{
+	background-color:#485769;
+	border-bottom-color: #2b72bb;
+}
+.navbar-inverse .btn-link{
+	color:white;
+}
+.navbar-brand{
+	padding-top:0;
+}
+.col-sm-4>div{
+	color:#969696;
+}
+i{
+	font-size:36px;
+}
+i+div{
+	font-size: 20px;
+}
+.details-border{
+
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  bottom: -75px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #e7e7e7;
+	border-top:1px solid #ddd;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container-fluid {
+  padding: 60px 15px 0;
+}
+.container-fluid .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+/* sticky footer ends*/
+.details-border-left{
+	border:1px solid #e4e4e4;
+	border-left:none;
+}
+.details-border{
+	border:1px solid #e4e4e4;
+}
+.details-border-right{
+	border:1px solid #e4e4e4;
+	border-right:none;
+}
+.row-details{
+	margin-left:0px !important;
+}
+footer .text-muted{
+	margin-top:10px;
+}
+div.container-fluid{
+	margin-bottom:5px;
+}
+.jumbotron{
+	background-color: rgba(238,238,238,0.7);
+}
+.chat-notify{
+	background-color: grey;
+	color:white;
+	font-style: italic;
+}
+.message-section textarea{
+	color:#2874F0 !important;
+}
+.message-list{
+	background: ghostwhite;
+}
+.navbar-form{
+	padding-top:10px;
+}
+body{
+	font-family:verdana;
+}
+footer .row{
+	padding-left:10px;
+	padding-top:5px;
+}
+.thumbnail{
+	min-height: 405px;
+}
+@media (min-width: 768px){
+	.navbar-nav>li>a{
+		padding-top:25px !important;
+		padding-bottom:25px !important;
+	}
+}
